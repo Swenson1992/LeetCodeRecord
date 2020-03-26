@@ -1,0 +1,31 @@
+{
+  "name": "leetcodeanswer",
+  "version": "1.1.0",
+  "description": "JavaScript Resolve Leetcode",
+  "main": "leetcode",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songjian925/LeetCodeAnswer.git"
+  },
+  "keywords": [
+    "leetcode",
+    "js"
+  ],
+  "author": "it.song",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/songjian925/LeetCodeAnswer/issues"
+  },
+  "homepage": "https://github.com/songjian925/LeetCodeAnswer#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
