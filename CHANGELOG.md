@@ -7,7 +7,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* **all:** 批量提交 ([2a503ae](https://github.com/songjian925/LeetCodeAnswer/commit/2a503aeab4a19a45f7a725bf589b97799d42c21d))
 * **easy:** 1351/225/27/53题解 ([9f39979](https://github.com/songjian925/LeetCodeAnswer/commit/9f39979a3228d1c4e2dba6ae289c3af1429d606f))
 * **easy:** 290/876解答 ([573a0f0](https://github.com/songjian925/LeetCodeAnswer/commit/573a0f0686ffa16715da03271ad488188c3fb726))
 * **easy:** 999解题 ([6b0349e](https://github.com/songjian925/LeetCodeAnswer/commit/6b0349e3ff2173370d51b3d016ebeaa478de89ad))
