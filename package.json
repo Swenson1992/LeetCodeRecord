@@ -1,38 +1,40 @@
 {
-  "name": "leetcodeanswer",
-  "version": "1.2.0",
-  "description": "JavaScript Resolve Leetcode",
-  "main": "leetcode",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/songjian925/LeetCodeAnswer.git"
-  },
-  "keywords": [
-    "leetcode",
-    "js"
-  ],
-  "author": "it.song",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/songjian925/LeetCodeAnswer/issues"
-  },
-  "homepage": "https://github.com/songjian925/LeetCodeAnswer#readme",
-  "devDependencies": {
-    "cz-conventional-changelog": "^3.1.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "/usr/local/lib/node_modules/cz-conventional-changelog"
+    "name": "leetcodeanswer",
+    "version": "1.2.0",
+    "description": "JavaScript Resolve Leetcode",
+    "main": "leetcode",
+    "scripts": {
+        "version": "standard-version",
+        "push": "git push --follow-tags origin master",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/songjian925/LeetCodeAnswer.git"
+    },
+    "keywords": [
+        "leetcode",
+        "js"
+    ],
+    "author": "it.song",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/songjian925/LeetCodeAnswer/issues"
+    },
+    "homepage": "https://github.com/songjian925/LeetCodeAnswer#readme",
+    "devDependencies": {
+        "cz-conventional-changelog": "^3.1.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "/usr/local/lib/node_modules/cz-conventional-changelog"
+        }
+    },
+    "dependencies": {
+        "event-stream": "^4.0.1",
+        "lodash": "4.17.19",
+        "minimist": "^1.2.5",
+        "node-fetch": "^2.6.1",
+        "nodemon": "^2.0.4"
     }
-  },
-  "dependencies": {
-    "event-stream": "^4.0.1",
-    "lodash": "4.17.19",
-    "minimist": "^1.2.5",
-    "node-fetch": "^2.6.1",
-    "nodemon": "^2.0.4"
-  }
 }
