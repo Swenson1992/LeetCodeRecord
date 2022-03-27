@@ -33,7 +33,7 @@
     "dependencies": {
         "event-stream": "^4.0.1",
         "lodash": "4.17.19",
-        "minimist": "^1.2.5",
+        "minimist": "^1.2.6",
         "node-fetch": "^2.6.1",
         "nodemon": "^2.0.4"
     }
